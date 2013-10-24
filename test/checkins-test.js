@@ -26,7 +26,7 @@ var Checkins = function(config, accessToken) {
         }
       });
     },
-  
+
     getRecentCheckins : function() {
       var test = 'Foursquare.Checkins.getRecentCheckins()';
       Foursquare.Checkins.getRecentCheckins(null, accessToken, function (error, data) {
